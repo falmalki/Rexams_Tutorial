@@ -1,0 +1,35 @@
+```{r data generation, echo = FALSE, results = "hide"}
+a <- sample(3:12, 1) 
+b <- sample(a+1:a+10, 1) 
+```
+
+Question
+========
+<style>
+h1 {
+    direction: rtl;
+  }
+p {
+  direction: rtl;
+}
+</style>
+  
+ماهي مشتقة الدالة $f(x) = `r a` e^{`r b` x}$؟
+  
+Answerlist
+---------- 
+* $e^{`r b` x}$
+* $`r a*b` e^{`r b` x}$
+* $`r a` e^{`r b` x}$
+* $`r b` e^{`r b` x}$
+
+Solution
+=========
+$`r a*b` e^{`r b` x}$
+ 
+Meta-information
+================
+exname: Dynamic_Deriv_Exp_Ar
+extype: schoice
+exsolution: 0100
+exshuffle: 4

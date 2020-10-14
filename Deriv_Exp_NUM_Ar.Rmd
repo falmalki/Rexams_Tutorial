@@ -1,0 +1,23 @@
+Question
+========
+<style>
+h1 {
+    direction: rtl;
+  }
+p {
+  direction: rtl;
+}
+</style>
+  
+ماهي قيمة مشتقة الدالة   $f(x) = \cos(\pi x)$ عند $x = 0.5$؟
+
+Solution
+=========
+`r fmt(-pi*sin(0.5*pi),4)`
+
+Meta-information
+================
+exname: Deriv_Exp_NUM_Ar
+extype: num
+exsolution: `r fmt(-pi*sin(0.5*pi),4)`
+extol: 0.01

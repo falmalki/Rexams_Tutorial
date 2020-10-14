@@ -1,0 +1,31 @@
+Question
+========
+What is the derivative of $f(x) = e^{5x}$?
+  
+Answerlist
+----------
+* $e^{5x}$
+* $5 e^{5x}$
+* $10 e^{5x}$
+* $-5 e^{5x}$
+* $\frac{e^{5x}}{5}$
+* It has no derivative
+  
+Solution
+========
+  
+Answerlist
+----------
+* False. You should derive the exponent.
+* True. 
+* False. The derivative of the exponent is $5$ not $10$. 
+* False. The derivative of the exponent is $5$ not $-5$.
+* False. The derivative of the exponent is $5$ not $\frac{1}{5}$.   
+* False. Its derivative is $5 e^{5x}$
+  
+Meta-information
+================
+exname: Deriv_Exp
+extype: schoice
+exsolution: 010000
+exshuffle: 4

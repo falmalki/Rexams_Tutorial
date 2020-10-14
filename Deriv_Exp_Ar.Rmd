@@ -1,0 +1,31 @@
+Question
+========
+<style>
+h1 {
+    direction: rtl;
+  }
+p {
+  direction: rtl;
+}
+</style>
+  
+ماهي مشتقة الدالة $f(x) = e^{5x}$؟
+  
+Answerlist
+---------- 
+* $e^{5x}$
+* $5 e^{5x}$
+* $10 e^{5x}$
+* $-5 e^{5x}$
+* $\frac{e^{5x}}{5}$
+
+Solution
+=========
+$5e^{5x}$
+
+Meta-information
+================
+exname: Deriv_Exp_Ar
+extype: schoice
+exsolution: 01000
+exshuffle: 4

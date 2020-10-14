@@ -1,0 +1,45 @@
+```{r data generation, echo = FALSE, results = "hide"}
+a <- sample(2:6, 1) 
+b <- sample(1:6, 1) 
+dgt<- sample(1:4,1)
+
+
+## soln
+sol <- a * b^{a-1}
+
+err <- c(a,  b^{a-1},  a*b^{a})
+
+rng <- c(-sol, 2*sol)
+
+sc <- num_to_schoice(sol, wrong = err, range = rng,
+                     delta = 10^{-1}, method = "delta", digits = dgt)
+```
+
+Question
+========
+<style>
+h1 {
+    direction: rtl;
+  }
+p {
+  direction: rtl;
+}
+</style>
+  
+  ماهي قيمة مشتقة الدالة   $f(x) = x^{`r a`}$ عند $x = `r b`$؟
+
+```{r questionlist, echo = FALSE, results = "asis"}
+answerlist(sc$questions, markup = "markdown")
+```
+
+
+Solution
+========
+  
+`r fmt(sol,dgt)`
+
+Meta-information
+================
+extype: schoice
+exsolution: `r mchoice2string(sc$solutions)`
+exshuffle: 4  
